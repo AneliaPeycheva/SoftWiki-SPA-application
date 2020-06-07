@@ -1,0 +1,26 @@
+#notifications{       
+    position:absolute;
+    /* left:50%;
+    bottom:25%; */
+    top:50px;
+    right:0;
+    margin:10px;
+    text-align: center;
+    /* left:10px; */
+}
+
+.notification{
+    border:2px solid rgb(10, 2, 19);
+    padding: 10px;
+    width: 200px;
+    color:white;
+    display: inline;
+}  
+
+#successBox{
+    background: rgb(110, 119, 93);
+}
+
+#errorBox{
+background: red;
+}

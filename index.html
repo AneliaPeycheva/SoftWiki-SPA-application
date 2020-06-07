@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./styles/notitfications.css">
+  <title>Document</title>
+</head>
+
+<body id="root">
+  <div id="main"></div>
+ 
+  <!-- <div id="notifications">
+    <div id="successBox" class="notification"></div>
+    <div id="loadingBox" class="notification" >Loading...</div>
+    <div id="errorBox" class="notification" ></div>
+  </div>  -->
+</body>
+
+<!-- Modules -->
+<script src="/node_modules/jquery/dist/jquery.js"></script>
+<script src="/node_modules/handlebars/dist/handlebars.js"></script>
+<script src="/node_modules/sammy/lib/sammy.js"></script>
+<script src="/node_modules/sammy/lib/plugins/sammy.handlebars.js"></script>
+
+<!-- Firebase -->
+<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-firestore.js"></script>
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyB7dVCQmcaGzdXYxydhG_z3XEj6DsOVjy0",
+    authDomain: "trecksapp.firebaseapp.com",
+    databaseURL: "https://trecksapp.firebaseio.com",
+    projectId: "trecksapp",
+    storageBucket: "trecksapp.appspot.com",
+    messagingSenderId: "1064976559264",
+    appId: "1:1064976559264:web:ecd7eed3b831e43b15edc5"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+<script type="module" src="scripts/app.js"></script>
+
+</html>
